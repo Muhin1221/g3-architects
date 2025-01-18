@@ -107,6 +107,45 @@ main > section{
 .features-details > .btn-primary{
     margin-top: 32px;
 }
+/* love and enjoy */
+.love-enjoy-features{
+    gap: 140px;
+    justify-content:space-around
+}
+.love-enjoy{
+    max-width: 580px;
+    margin-top: 30px;
+}
+.love-enjoy .section-title{
+    border-left: 5px solid #FF900E;
+    padding-left: 25px;
+}
+.card{
+    border-radius: 8px;
+    padding: 30px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+}
+.card-title{
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+.love-enjoy-img img{
+    max-width: 700px;
+    height: 90%;
+}
+#exp-btn{
+    padding: 45px 40px;
+    margin-left: -100px;
+    margin-top: -100px;
+}
+.exp-year{
+    font-size: 4rem;
+    font-weight: 700;
+}
+
 /* Some facts */
 .fact-container{
     display: grid;
@@ -164,6 +203,7 @@ main > section{
 
 
 
+
 /* Responsive */
 @media screen and (max-width: 576px) {
     .navbar , .navbar-links{
@@ -195,6 +235,20 @@ main > section{
     .footer{
         margin: 0 auto;
         padding: 5px;
+    }
+    .love-enjoy-features{
+        flex-direction: column;
+        
+    }
+    .love-enjoy{
+        margin: 0px auto;
+    }
+    .love-enjoy-img img{
+        width: 100%;
+    }
+    #exp-btn{
+        margin-left: 0;
+        margin-top: 10px;
     }
 }
 
